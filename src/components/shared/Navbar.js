@@ -13,6 +13,7 @@ import Link from "next/link";
 // icons
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { Stack } from "@mui/material";
+import Header from "./Header";
 
 const navItems = [
   {
@@ -44,7 +45,7 @@ const navItems = [
 function NavBar() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <AppBar position="static" className="bg-black">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
